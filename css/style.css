@@ -55,6 +55,7 @@ p{
     height: 100%;
     opacity: 0.1;
     clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    z-index: 1;
 }
 
 @media screen and (max-width: 768px){
@@ -82,4 +83,5 @@ footer{
     height: 50px;
     text-align: center;
     font-size: x-small;
+    z-index: 2;
 }
