@@ -1,0 +1,84 @@
+body{
+    background: linear-gradient(to top, #780206, #040d52);
+    color: white;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    position: relative;
+}
+
+.container{
+    padding-top: 10%;
+    text-align: left;
+    padding-left: 10%;
+}
+
+img{
+    margin-right: 3px;
+}
+
+.imag{
+    box-shadow: -15px 5px 10px black;
+    border-radius: 50%;
+}
+
+.nombre{
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-shadow: 1px 6px 3px black;
+}
+
+.sub{
+    font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 25px;
+}
+
+p{
+    font-family: 'Helvetica', sans-serif;
+    font-style: oblique;
+    margin-right: 10%;
+}
+
+.contact{
+    text-align: end;
+    margin-right: 10%;
+}
+
+.capa1{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        text-align: center;
+    }
+    .imag{
+        width: 100px;
+    }
+    .nombre{
+        font-size: 2rem;
+    }
+    .sub{
+        font-size: small;
+    }
+    p{
+        font-size: small;
+    }
+    .capa1{
+        clip-path: polygon(100% 50%, 0% 100%, 100% 100%);
+    }
+}
+
+footer{
+    height: 50px;
+    text-align: center;
+    font-size: x-small;
+}
