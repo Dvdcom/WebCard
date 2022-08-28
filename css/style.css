@@ -62,6 +62,17 @@ p{
     z-index: 1;
 }
 
+.leyenda{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.tecLeyenda{
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 800;
+    font-size: small;
+    opacity:0.3;
+}
 
 
 @media screen and (max-width: 768px){
