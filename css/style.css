@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-    margin-top: 10%;
+    margin-top: 5%;
     text-align: left;
     margin-left: 10%;
     margin-right: 10%;
@@ -44,8 +44,12 @@ p{
 }
 
 .contact{
-    text-align: end;
+    text-align: center;
     margin-right: 10%;
+    filter: invert(100%);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
 }
 
 .capa1{
@@ -57,6 +61,8 @@ p{
     clip-path: polygon(100% 0, 0% 100%, 100% 100%);
     z-index: 1;
 }
+
+
 
 @media screen and (max-width: 768px){
     .container{
@@ -74,14 +80,20 @@ p{
     p{
         font-size: small;
     }
+    .contact{
+        text-align: end;
+        margin-right: 3%;
+    }
+
     .capa1{
-        clip-path: polygon(100% 50%, 0% 100%, 100% 100%);
+        clip-path: polygon(100% 40%, 0% 100%, 100% 100%);
     }
 }
 
 footer{
-    height: 50px;
+    height: 70px;
     text-align: center;
     font-size: x-small;
     z-index: 2;
+    opacity:0.3;
 }
