@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+
+:root {
+    --Fuente-principal: 'Kanit', sans-serif;
+    --Fuente-secundaria: 'Helvetica','Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --color-fuente: white;
+}
+
+/* Layout principal */
 body{
-    background: linear-gradient(to top, #780206, #040d52);
-    color: white;
+    background: linear-gradient(to top, #731836, #001227);
+    color: var(--color-fuente);
     margin: 0;
     display: grid;
     grid-template-rows: auto 1fr auto;
@@ -8,11 +17,14 @@ body{
     position: relative;
 }
 
+/* CONTENIDO MAIN principal */
+
 .container{
     margin-top: 5%;
     text-align: left;
     margin-left: 10%;
     margin-right: 10%;
+    font-family: var(--Fuente-secundaria);
 }
 
 img{
@@ -25,22 +37,41 @@ img{
 }
 
 .nombre{
-    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    margin-top: 10px;
+    font-family: var(--Fuente-principal);
     font-size: 3rem;
-    padding-top: 10px;
-    padding-bottom: 5px;
     text-shadow: 1px 6px 3px black;
 }
 
-.sub{
-    font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding-bottom: 25px;
+.iconos{
+    margin-top: 10px;
 }
 
-p{
-    font-family: 'Helvetica', sans-serif;
+.leyenda{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.tecLeyenda{
+    font-weight: 800;
+    font-size: small;
+    opacity:0.3;
+}
+
+.parrafo{
     font-style: oblique;
     margin-right: 10%;
+}
+
+/* Contenido pie de pagina */
+
+footer{
+    height: 70px;
+    text-align: center;
+    font-size: x-small;
+    z-index: 2;
+    opacity:0.3;
+    font-family: var(--Fuente-secundaria);
 }
 
 .contact{
@@ -62,18 +93,7 @@ p{
     z-index: 1;
 }
 
-.leyenda{
-    margin-top: 1%;
-    margin-bottom: 1%;
-}
-
-.tecLeyenda{
-    font-family: 'Helvetica', sans-serif;
-    font-weight: 800;
-    font-size: small;
-    opacity:0.3;
-}
-
+/* Mediaquery for movil */
 
 @media screen and (max-width: 768px){
     .container{
@@ -101,10 +121,3 @@ p{
     }
 }
 
-footer{
-    height: 70px;
-    text-align: center;
-    font-size: x-small;
-    z-index: 2;
-    opacity:0.3;
-}

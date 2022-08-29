@@ -12,34 +12,35 @@
 <body>
     <header>
     </header>
+    <!-- Contenido principal -->
     <main>
         <div class="container">
+            <!-- Apartado de FOTO + NOMBRE + SUB -->
             <section>
                 <div><img src="img/perfil-personal.png" class="imag" alt="foto_perfil" width="150px"></div>
                 <div class="nombre">DAVID GUTIERREZ</div>
                 <div class="sub">Desarrollador Web Full Stack</div>
             </section>
-
-            <section>
-                <img onmouseover="MostrarTooltip(1);" onmouseleave="ocultar();" class="ico1" src="img/html.svg" alt="html" width="27px">
-                <img onmouseover="MostrarTooltip(2);" onmouseleave="ocultar();" class="icont ico2" src="img/css.svg" alt="css" width="27px">
-                <img onmouseover="MostrarTooltip(3);" onmouseleave="ocultar();" class="icont ico3" src="img/Bootstrap_logo.svg" alt="boostrap" width="40px">
-                <img onmouseover="MostrarTooltip(4);" onmouseleave="ocultar();" class="icont ico4" src="img/javascript.svg" alt="javascript" width="30px">
-                <img onmouseover="MostrarTooltip(5);" onmouseleave="ocultar();" class="icont ico5" src="img/node.svg" alt="nodejs" width="35px">
-                <img onmouseover="MostrarTooltip(6);" onmouseleave="ocultar();" class="icont ico6" src="img/mysql.svg" alt="mysql" width="50px">
+            <!-- Apartado de ICONOS TECNOLOGIA -->
+            <section class="iconos">
+                <img onmouseover="MostrarTooltip(1);" onmouseleave="ocultar();" src="img/html.svg" alt="html" width="27px">
+                <img onmouseover="MostrarTooltip(2);" onmouseleave="ocultar();" src="img/css.svg" alt="css" width="27px">
+                <img onmouseover="MostrarTooltip(3);" onmouseleave="ocultar();" src="img/Bootstrap_logo.svg" alt="boostrap" width="40px">
+                <img onmouseover="MostrarTooltip(4);" onmouseleave="ocultar();" src="img/javascript.svg" alt="javascript" width="30px">
+                <img onmouseover="MostrarTooltip(5);" onmouseleave="ocultar();" src="img/node.svg" alt="nodejs" width="35px">
+                <img onmouseover="MostrarTooltip(6);" onmouseleave="ocultar();" src="img/mysql.svg" alt="mysql" width="50px">
             </section>
-
+            <!-- Apartado de Tooltip oculto -->
             <section class="leyenda" style="visibility: visible;">
                 <span class="tecLeyenda"></span>
             </section>
-
-            <section>
+            <!-- Apartado de parrafo -->
+            <section class="parrafo">
                 <p>Soy de Capital Federal, autodidacta con algunos cursos de programacion, actualmente soy empleado en TELECOM.</p>
             </section>
         </div>
-
     </main>
-    
+    <!-- Contenido de pie de pagina -->
     <footer>
         <div class="contact">
             <a href="https://www.facebook.com/gutierrezdv"><img src="img/facebook.svg" alt="html" width="27px"></a>
@@ -48,6 +49,7 @@
         </div>
         <div>CopyRigth &copy; 2022</div>
     </footer>
+    
     <div class="capa1"></div>
     <script src="js/script.js"></script>
 </body>
