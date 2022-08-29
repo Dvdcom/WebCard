@@ -5,8 +5,8 @@
 <stop offset="1" stop-color="#fff"/>
 </linearGradient>
 <linearGradient id="bs-logo-b" x1="193.508" x2="293.514" y1="109.74" y2="278.872" gradientUnits="userSpaceOnUse">
-<stop stop-color="#230a3e"/>
-<stop offset="1" stop-color="#230a3e"/>
+<stop stop-color="#23142c"/>
+<stop offset="1" stop-color="#23142c"/>
 </linearGradient>
 <filter xmlns="http://www.w3.org/2000/svg" id="bs-logo-c" width="197" height="249" x="161.901" y="83.457" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
