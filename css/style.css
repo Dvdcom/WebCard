@@ -28,7 +28,7 @@ body{
 }
 
 img{
-    margin-right: 3px;
+    margin-right: 7px;
 }
 
 .imag{
@@ -45,6 +45,8 @@ img{
 
 .iconos{
     margin-top: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .leyenda{
@@ -61,6 +63,7 @@ img{
 .parrafo{
     font-style: oblique;
     margin-right: 10%;
+    width: 100%;
 }
 
 /* Contenido pie de pagina */
@@ -107,6 +110,9 @@ footer{
     }
     .sub{
         font-size: small;
+    }
+    .iconos{
+        justify-content: center;
     }
     p{
         font-size: small;
